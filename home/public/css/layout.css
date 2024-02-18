@@ -1,0 +1,59 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+div{
+    box-shadow:0px 5px 15px rgba(0,0,0,.4);
+    padding:5%;
+    margin-bottom:3%;
+    color:red;
+    font-size:25px;
+}
+
+div p{
+    color:black;
+    font-size:19px;
+    text-transform:capitalize;
+    margin:1% 0%;
+    line-height:1.9rem;
+}
+
+div span{
+    color:blue;
+    font-size:16px;
+}
+
+
+.header,.footer{
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    margin-bottom:1%;    
+    
+}
+
+.hero{
+    height:35vh;
+}
+
+.about{
+    height:70vh;
+}
+
+.patnerships{
+    padding:3% 5%;
+}
+
+.testimonials{
+    height:40vh;
+}
+
+.jurisdictions{
+    height:55vh;
+}
+
+.delivery{
+    height:65vh;
+}
